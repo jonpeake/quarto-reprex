@@ -1,0 +1,19 @@
+---
+title: "Reproducible Quarto Document"
+format: html
+brand:
+  logo: 
+    images:
+      quarto-logo: 
+        path: https://quarto.org/quarto.png
+        alt: "Quarto icon"
+    small: quarto-logo
+---
+
+This is a reproducible Quarto document using `format: html`. It is written in Markdown and contains embedded Python code. When you run the code, it will produce a message.
+
+{{< lipsum 1 >}}
+
+{{< brand logo small>}}
+
+The end.
